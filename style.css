@@ -1,0 +1,22 @@
+body {
+    font-family: Montserrat, sans-serif;
+    color: rgb(64, 64, 64);
+    line-height: 1.4;
+    background-color: rgb(244, 245, 247);
+}
+
+.img-cabecalho {
+    width: 70px;
+}
+
+.cabecalho {
+    font-size: 14px;
+    color: #112E61;
+    text-decoration: none;
+    
+}
+
+.cabecalho a {
+    color: #112E61;
+    text-decoration: none;
+}
