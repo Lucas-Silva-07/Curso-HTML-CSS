@@ -1,22 +1,86 @@
+/* Global */
 body {
-    font-family: Montserrat, sans-serif;
-    color: rgb(64, 64, 64);
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
     line-height: 1.4;
     background-color: rgb(244, 245, 247);
 }
 
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* Cabeçalho */
 .img-cabecalho {
-    width: 70px;
+  width: 70px;
 }
 
-.cabecalho {
-    font-size: 14px;
-    color: #112E61;
+.lista-cabecalho a {
+  color: #112e61;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção Hero */
+
+.hero-paragrafo {
+    font-size: 19px;
+}
+
+.hero-botao {
+    font-size: 24px;
+    font-weight: 700;
     text-decoration: none;
-    
 }
 
-.cabecalho a {
-    color: #112E61;
+/* Seção conteúdo gratuitos */
+
+h2.gratuito-h2 span {
+    color: #7a40be;
+    font-weight: 600;
+}
+
+.gratuito-h3 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.gratuito-link-lista {
+    font-size: 19px;
+    text-decoration: none;
+}
+
+/* Seção diferencias */
+
+.diferenciais-p {
+    font-size: 19px;
+}
+
+.diferenciais-h3 {
+    font-size: 23px;
+    color: #005e88;
+    font-weight: 600;
+}
+
+.diferenciais-h3-empresas {
+    font-size: 23px;
+    font-weight: 400;   
+}
+
+h3.diferenciais-h3-empresas a {
+    color: #005e88;
+    font-weight: 700;
     text-decoration: none;
 }
