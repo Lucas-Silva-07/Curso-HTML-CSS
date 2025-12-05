@@ -18,12 +18,12 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 600;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -31,8 +31,17 @@ strong {
     font-weight: 600;
 }
 
+/* a:link, a:visited {
+
+} */
+
+.lista-cabecalho a:hover, 
+.lista-cabecalho a:active {
+  color: #f60;
+}
+
 .botao {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -43,21 +52,42 @@ strong {
 
 /* Cabeçalho */
 .img-cabecalho {
-  width: 70px;
+  width: 7.0rem;
 }
 
 .lista-cabecalho a {
   color: #112e61;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
 }
 
+.lista-cabecalho.contem-filhos::after{
+  content: "\2BC6";
+}
+
+.cabecalho {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 1.6rem 3.12rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+}
+/* Temporario */
+nav {
+  display: none;
+}
+
 /* Seção Hero */
 
 .hero-paragrafo {
-  font-size: 19px;
+  font-size: 1.9rem;
 }
 
 /* Seção conteúdo gratuitos */
@@ -68,29 +98,29 @@ strong {
 }
 
 .gratuito-h3 {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
 .gratuito-link-lista {
-  font-size: 19px;
+  font-size: 1.9rem;
   text-decoration: none;
 }
 
 /* Seção diferencias */
 
 .diferenciais-p {
-  font-size: 19px;
+  font-size: 1.9rem;
 }
 
 .diferenciais-h3 {
-  font-size: 23px;
+  font-size: 2.3rem;
   color: #005e88;
   font-weight: 600;
 }
 
 .diferenciais-h3-empresas {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
@@ -99,11 +129,6 @@ strong {
   font-weight: 700;
   text-decoration: none;
 }
-
-/* Seção O que falam
-.oquefalam-h2 span {
-  font-weight: 600;
-} */
 
 /* Seção Blog */
 .blog-postadoem {
@@ -118,19 +143,19 @@ strong {
 
 .blog-titulo-post {
   color: #404040;
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 600;
   text-decoration: none;
 }
 
 .blog-descricao-post {
-  font-size: 17px;
+  font-size: 1.7rem;
 }
 
 /* Seção como ajudar */
 .comoajudar-lista,
 .comoajudar-paragrafo {
-  font-size: 19px;
+  font-size: 1.9rem;
 }
 
 .comoajudar-lista a,
@@ -147,17 +172,17 @@ strong {
 
 /* Rodapé */
 .rodape-titulo {
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .rodape-subtitulo {
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: 500;
 }
 
 .rodape-subtitulo2 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
