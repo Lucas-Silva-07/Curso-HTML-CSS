@@ -24,12 +24,17 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.76rem;
     font-weight: 400;
+    line-height: 1.1;
 }
 
 strong {
     font-weight: 600;
+}
+
+ul {
+  list-style: none;
 }
 
 .secao {
@@ -91,9 +96,6 @@ strong {
   box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-  list-style: none;
-}
 /* Temporario */
 nav {
   display: none;
@@ -134,11 +136,49 @@ nav {
 
 /* Seção conteúdo gratuitos */
 
+.caixa-cursos-hashtag {
+  position: relative;
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+
 .secao-conteudos {
   background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-conteudos{
+  width: 44rem;
+}
+
+.circulo-logo-curso {
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  padding: 1.02rem;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+
+.circulo-logo-curso img {
+  width: 100%;
+}
+
+.caixa-gratuito-h3 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  color: #fff;
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  border-radius: 1rem;
+  transform: rotate(-3deg) translate(-50%, -50%);
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
 .gratuito-h2 span {
@@ -149,17 +189,34 @@ nav {
 .gratuito-h3 {
   font-size: 2.3rem;
   font-weight: 700;
+
 }
 
-.gratuito-link-lista {
-  font-size: 1.9rem;
+.gratuito-link-lista:link,
+.gratuito-link-lista:visited {
+  display: inline-block;
+  padding: 0.42rem 3.12rem;
+  background-color: #eee;
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+  font-size: 1.92rem;
   text-decoration: none;
+  color: inherit;
+}
+
+.gratuito-link-lista:hover,
+.gratuito-link-lista:active {
+  text-decoration: underline;
+}
+
+.gratuito-link-lista img {
+  width: 1.8rem;
 }
 
 /* Seção diferencias */
 
 .diferenciais-p {
-  font-size: 1.9rem;
+  font-size: 1.92rem;
 }
 
 .diferenciais-h3 {
@@ -204,7 +261,7 @@ nav {
 /* Seção como ajudar */
 .comoajudar-lista,
 .comoajudar-paragrafo {
-  font-size: 1.9rem;
+  font-size: 1.92rem;
 }
 
 .comoajudar-lista a,
