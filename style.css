@@ -134,6 +134,13 @@ nav {
 
 /* Seção conteúdo gratuitos */
 
+.secao-conteudos {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .gratuito-h2 span {
   color: #7a40be;
   font-weight: 600;
